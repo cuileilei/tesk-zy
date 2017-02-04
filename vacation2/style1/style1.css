@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background: #fff; }
+
+.head {
+  width: 100%;
+  height: 44px;
+  background: #000;
+  position: relative; }
+  .head .left {
+    color: #fff;
+    position: absolute;
+    left: 1.3rem;
+    line-height: 44px; }
+  .head h2 {
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bold; }
+  .head .error {
+    position: absolute;
+    right: 4.4rem;
+    top: 1.5rem;
+    color: #fff; }
+  .head .right {
+    position: absolute;
+    color: blue;
+    right: 1.3rem;
+    top: 1.5rem; }
+
+.sub-head {
+  width: 100%;
+  height: 18.5rem;
+  background: #f5f2f7;
+  position: relative; }
+  .sub-head .circle {
+    width: 11rem;
+    height: 11rem;
+    background: #fff;
+    border-radius: 11rem;
+    position: absolute;
+    left: 2%;
+    top: 4rem; }
+    .sub-head .circle i {
+      color: blue;
+      line-height: 11rem;
+      margin-left: 5rem;
+      font-size: 1.6rem; }
+  .sub-head p {
+    position: absolute;
+    left: 45%;
+    line-height: 18.5rem;
+    color: #ccc; }
+  .sub-head .cramer {
+    position: absolute;
+    right: 6%;
+    line-height: 18.5rem; }
+
+.contain {
+  width: 100%;
+  flex: 1;
+  overflow: hidden; }
+  .contain p {
+    width: 100%;
+    height: 4.9rem;
+    border-bottom: 1px solid #ccc;
+    color: #ccc;
+    padding-left: 5%;
+    position: relative; }
+    .contain p input {
+      width: 70%;
+      height: 100%;
+      border: none;
+      padding-left: 30%;
+      text-align: right; }
+    .contain p span {
+      display: block;
+      width: 5.7rem;
+      height: 2.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5.7rem;
+      background: blue;
+      position: absolute;
+      right: 1.1rem; }
+      .contain p span .des {
+        display: block;
+        width: 2.6rem;
+        height: 2.6rem;
+        border-radius: 2.6rem;
+        background: #fff;
+        position: absolute;
+        left: 3.1rem;
+        transition: 1s ease-in-out; }
+    .contain p .dec {
+      background: green;
+      transition: 1s ease-in-out; }
+    .contain p .dec .des {
+      left: 7px; }
+
+/*# sourceMappingURL=style1.css.map */

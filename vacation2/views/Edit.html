@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link type = "text/css" rel="stylesheet" href="../style1/reset.css">
+    <link type = "text/css" rel="stylesheet" href="../css/font-awesome.css">
+    <link type = "text/css" rel="stylesheet" href="../style1/style1.css">
+</head>
+<body>
+    <div class = "container">
+        <header class = "head">
+            <i class = "fa fa-long-arrow-left left"></i>
+            <h2>Edit Profile</h2>
+            <i class = "fa fa-times error"></i>
+            <i class = "fa fa-check right"></i>
+        </header>
+        <div class = "sub-head">
+            <div class = "circle">
+                <i class = "fa fa-user"></i>
+            </div>
+            <p>Upload a profile photo</p>
+            <i class = "fa fa-flickr cramer"></i>
+        </div>
+        <div class = "contain">
+            <div class = "content">
+                <p>
+                    EMAIL
+                    <input type="text" value = "pilsfdfdfdfqq@.com">
+                </p>
+                <p>
+                    PASSWORD
+                    <input type="password" value = "asasdsvvsdcsdds">
+                </p>
+                <p>
+                    REMEMBER ME
+                    <span class = "spa"><i class = "des"></i></span>
+                </p>
+                <p>
+                    PASSWORD
+                    <input type="text" value = "EXOUS ASDAS">
+                </p>
+                <p>
+                    PASSWORD
+                    <input type="text" value = "EXOUS ASDAS">
+                </p>
+                <p>
+                    PASSWORD
+                    <input type="text" value = "EXOUS ASDAS">
+                </p>
+                <p>
+                    REMEMBER ME
+                    <span class = "spa"><i class = "des"></i></span>
+                </p>
+                <p>
+                    REMEMBER ME
+                    <span class = "spa"><i class = "des"></i></span>
+                </p>
+                <p>
+                    PASSWORD
+                    <input type="text" value = "EXOUS ASDAS">
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type = "text/javascript" src = "../js/iscroll.js"></script>
+    <script>
+        new IScroll(".contain")
+    </script>
+    <script>
+        var spa = document.querySelector(".spa");
+        spa.onclick = function(){
+            if(this.className.indexOf("dec")>-1){
+                this.className = "spa";
+            }else{
+                this.className += " dec";
+            }
+        };
+    </script>
+
+</body>
+</html>
